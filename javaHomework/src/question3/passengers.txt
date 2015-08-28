@@ -1,0 +1,5 @@
+Smith  50000   5  3
+White  120000   2  4
+Brown  200000  4  1
+Ford  98000     3  2
+Truman  100000  4  5

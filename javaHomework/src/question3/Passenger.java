@@ -1,3 +1,4 @@
+package question3;
 public class Passenger {
 	private String name;
 	private int mileage;
