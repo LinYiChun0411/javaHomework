@@ -1,10 +1,13 @@
 package question1;
 public class MyStack {
-	char[] stack=new char[100];//
+	
 	int top=-1;;//位置
 	int MAX_STACK_SIZE;
+	char[] stack;
+	
 	public MyStack(int MAX_STACK_SIZE) {
 		this.MAX_STACK_SIZE=MAX_STACK_SIZE;
+		stack = new char[MAX_STACK_SIZE];
 	}
 	public void push(char element){//入栈
 		top++;//加入元素
@@ -12,10 +15,12 @@ public class MyStack {
 	}
 
 	public char pop() {
+		
 		char element;
 		element = stack[top];
 		top--;// 刪除元素
 		return element;
+		
 
 	}
 	public boolean isStackEmpty(){
