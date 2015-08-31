@@ -52,7 +52,7 @@ public class SeatAssign {
 
 			priorityQueue.add(passenger);//將物件放入容器 裡面是minHeap的結構 
 		}
-		
+		input.close();
 		fr.close();
 		System.out.println("排序後:");
 		while (!priorityQueue.isEmpty()) {
